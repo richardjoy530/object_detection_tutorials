@@ -356,11 +356,6 @@ model_name = 'ssd_inception_v2_coco_2017_11_17'
 detection_model = load_model(model_name)
 ```
 
-    Downloading data from http://download.tensorflow.org/models/object_detection/ssd_inception_v2_coco_2017_11_17.tar.gz
-    278126592/278126337 [==============================] - 114s 0us/step
-    INFO:tensorflow:Saver not created because there are no variables in the graph to restore
-    
-
 #### 5. Defining a function to detect objects
 
 `run_inference_for_single_image` is a function that takes a `model` and an `image`. It uses the given `model` to detect the objects in the given `image`
