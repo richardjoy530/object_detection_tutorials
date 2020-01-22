@@ -37,7 +37,7 @@ Now that you have anaconda installed, lets make an environment for our program.
 We will be using `tensorflow 2.0` for this tutorial.
 
 open Anaconda Promt from Start menu
-![Annotation%202020-01-22%20124206.png](attachment:Annotation%202020-01-22%20124206.png)
+![](Annotation%202020-01-22%20124206.png)
 
     
     Throughout this tutorial, there are two types of codes. The ones that start with '!' and the ones that dont.
@@ -50,7 +50,7 @@ open Anaconda Promt from Start menu
 !cd Documents\Tensorflow 
 ```
 
- ![Annotation%202020-01-22%20130038.png](attachment:Annotation%202020-01-22%20130038.png)
+ ![](Annotation%202020-01-22%20130038.png)
     
     The other comands are python commands. We'll see how and where to run it later in this tutorial.
     
@@ -73,7 +73,7 @@ Next, activate the environment by:
 ```
 
 Once you do this you'll see `(tensorflow2)` at the begning of the command line, it means you are in that environment. We can create as many environments as we need, the modules that we install in an environment is exclusive to that environment. As a result, there will not be any clash between different versions of any module. Well, now we understood why it is crusial to use virtual environments. 
-![Annotation%202020-01-22%20132153.png](attachment:Annotation%202020-01-22%20132153.png)
+![](Annotation%202020-01-22%20132153.png)
 
 
 #### Installing modules
@@ -118,18 +118,18 @@ Now go to the folder `Program Files` in your `C:` drive and create a folder name
 copy the extracted folders into this folder
 
 now it should look like this:
-![Annotation%202020-01-22%20100017.png](attachment:Annotation%202020-01-22%20100017.png)
+![](Annotation%202020-01-22%20100017.png)
 
 Now we have to add this to the system path.
-search `environment variables` in the `Start menu` ![Annotation%202020-01-22%20095759.png](attachment:Annotation%202020-01-22%20095759.png)
+search `environment variables` in the `Start menu` ![](Annotation%202020-01-22%20095759.png)
 
 Select `Environment Variables`
 
-![Annotation%202020-01-22%20100254.png](attachment:Annotation%202020-01-22%20100254.png) 
+![](Annotation%202020-01-22%20100254.png) 
 
 In `System variables` select `path` and edit.
 
-Now `Add` a new path to the list `C:\Program Files\Google Protobuf\bin` ![Annotation%202020-01-22%20100731.png](attachment:Annotation%202020-01-22%20100731.png)
+Now `Add` a new path to the list `C:\Program Files\Google Protobuf\bin` ![](Annotation%202020-01-22%20100731.png)
 
 Protobuf installation is complete
 
@@ -141,7 +141,7 @@ NOTE: This download is around 500 Mb
 You can either download this folder from https://github.com/tensorflow/models/archive/master.zip 
 
 and extract this zip file into our `Tensorflow` folder and rename the `model-master` folder to just `model`. The directory must be as shown below:
-![Annotation%202020-01-22%20200255.png](attachment:Annotation%202020-01-22%20200255.png)
+![](Annotation%202020-01-22%20200255.png)
 
 ##### or
 
@@ -211,7 +211,7 @@ After that you can read the explanation of each code block down below:
 
 ```
 
-![Annotation%202020-01-22%20211555.png](attachment:Annotation%202020-01-22%20211555.png)
+![](Annotation%202020-01-22%20211555.png)
 
 ```
 
@@ -219,7 +219,7 @@ After that you can read the explanation of each code block down below:
 
 
 ```
-![Annotation%202020-01-22%20211703.png](attachment:Annotation%202020-01-22%20211703.png)
+![](Annotation%202020-01-22%20211703.png)
 
 ```
 
@@ -229,7 +229,7 @@ After that you can read the explanation of each code block down below:
 
 ```
 
-![Annotation%202020-01-22%20211733.png](attachment:Annotation%202020-01-22%20211733.png)
+![](Annotation%202020-01-22%20211733.png)
 
 
 To run the file `run.py`:
