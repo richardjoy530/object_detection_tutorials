@@ -8,7 +8,7 @@ _Author: Richard Joy_
 richardjoy530@gmail.com
 
 ---
-Don't get overwhelmed by the title. Seriously, anyone can do object detection using tensorflow even with very little or no knowledge in python by following this tutorial. Actually tensorflow makes is much easier to do machine learning. All we need to know is how to setup all the packages and various installations, and how to not mess up with different versions of the same package or library.
+Don't get overwhelmed by the title. Seriously, anyone can do object detection using tensorflow even with very little or no knowledge in python by following this tutorial. Actually tensorflow makes this much easier to do machine learning. All we need to know is how to setup all the packages and various installations, and how to not mess up with different versions of the same package or library.
 
 Just keep on reading you will get the hang of it  :)
 
