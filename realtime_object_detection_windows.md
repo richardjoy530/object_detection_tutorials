@@ -184,7 +184,7 @@ just run these codes it should get you there.
 
 
 ```python
-!cd Documents/Tensorflow/model/research
+!cd Documents/Tensorflow/models/research
 !protoc object_detection/protos/*.proto --python_out=.
 ```
 
