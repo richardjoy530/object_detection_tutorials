@@ -2,7 +2,9 @@
 
 
 ### This is a beginner friendly tutorial.
-<img src="data/Annotation%202020-01-23%20004710.png" width="48"> _Author: Richard Joy_  
+<img src="data/Annotation%202020-01-23%20004710.png" width="48">
+
+_Author: Richard Joy_  
     richardjoy530@gmail.com
 
 ---
