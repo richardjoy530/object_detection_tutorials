@@ -45,7 +45,9 @@ open Anaconda Prompt from Start menu
     
     Throughout this tutorial, there are two types of codes. The ones that start with '!' and the ones that dont.
     
-    '!' These are shell commands. These are to be run in our Anaconda Prompt with the "Tensorflow" folder as our command line location. You can change the location of command line by using "cd Documents\Tensorflow" in the Anaconda prompt as shown here:
+    '!' These are shell commands. These are to be run in our Anaconda Prompt with the 
+    "Tensorflow" folder as our command line location. You can change the location of 
+    command line by using "cd Documents\Tensorflow" in the Anaconda prompt as shown here:
   
 
 
@@ -241,6 +243,8 @@ After that you can read the explanation of each code block down below:
 To run the file `run.py`:
 ```
 enter the shell command given below in the anaconda prompt at the location of our 'Tensorflow' folder
+This will take some time just wait. Press 'q' to terminate the program
+
 ```
 
 
@@ -255,7 +259,8 @@ enter the shell command given below in the anaconda prompt at the location of ou
 There is nothing much to say in here, its just telling the interpreter that these are the files that we need to run this program.
 
 ``` 
-if you come across any error here, then that means that module is not installed in the environment. You can fix it by runinng ' !pip install _______ ' in the prompt.
+if you come across any error here, then that means that module is not
+installed in the environment. You can fix it by runinng ' !pip install _______ ' in the prompt.
 ```
 
 
