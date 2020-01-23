@@ -410,11 +410,16 @@ This set of code is just taking each frame of the video image by image and passi
 
 ```python
 import cv2
+# 'VideoCapture()' is used for getting the video input from a device(in this case, our webcam ) 
+#  or a video file (place the file name in the brackets to do so.) and this is saved in a variable 'cap'
 cap = cv2.VideoCapture(0)
+
+# 'try' is a way of telling the interpreter just so it dosn't freak out and throw errors 
+#  when it encounters a problem.
 try:
     def run_inference(model, cap):
         while True:
-            # This is where  we capture each frame image by image.
+            # This is where  we capture each frame image by image in a variable called 'image_np'.
             ret, image_np = cap.read()
             # this image along with the model is given to the previous function as it gives the detection
             # details the output is stored in 'output_dict' and it contains the objects name, 
@@ -430,6 +435,8 @@ try:
                 instance_masks=output_dict.get('detection_masks_reframed', None),
                 use_normalized_coordinates=True,
                 line_thickness=8)
+                
+            # 'cv2.imshow' just displays the image with detected boundaries
             cv2.imshow('object_detection', cv2.resize(image_np, (800, 600)))
             
             #This code just stops the program if we press 'q' on our keyboard
@@ -437,6 +444,8 @@ try:
                 cap.release()
                 cv2.destroyAllWindows()
                 break
+
+
 except Exception as e:
     cap.release()
 run_inference(detection_model, cap)
@@ -458,3 +467,12 @@ I will be making similar tutorials on Training object detection on custom object
 I will be updating this file and you can get it from: https://github.com/richardjoy530/object_detection_tutorials/blob/master/realtime_object_detection_windows.md
 
 Feel free to contact me if you ran into some troubles or need further info : richardjoy530@gmail.com
+
+
+
+
+
+code refrences taken from : 
+    _https://pythonprogramming.net/introduction-use-tensorflow-object-detection-api-tutorial/
+     https://gilberttanner.com/blog/installing-the-tensorflow-object-detection-api
+     https://github.com/EdjeElectronic_
