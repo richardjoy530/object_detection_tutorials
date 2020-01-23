@@ -108,7 +108,11 @@ Select `Environment Variables`
 
 ![](data/Annotation%202020-01-22%20100254.png) 
 
-In `System variables` select `path` and edit. Now `Add` a new path to the list `C:\Program Files\Google Protobuf\bin`
+In `System variables` select `path` and edit. 
+
+![](data/Annotation%202020-01-22%20100455.png)
+
+Now `Add` a new path to the list `C:\Program Files\Google Protobuf\bin`
 
 ![](data/Annotation%202020-01-22%20100731.png)
 
