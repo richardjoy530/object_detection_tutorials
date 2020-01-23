@@ -180,6 +180,7 @@ You need to open a new Anaconda shell and activate our environment by `!conda ac
 But unlike other commands, we should run this in prompt with location model/research
 ```
 just run these codes it should get you there.
+
 ```
 
 
@@ -187,6 +188,7 @@ just run these codes it should get you there.
 !cd Documents/Tensorflow/models/research
 !protoc object_detection/protos/*.proto --python_out=.
 ```
+if the you get an error in changing the directry try: `!cd models/research` insted of the first command.
 
 #### Building and Installing Object Detection files
 
