@@ -1,11 +1,11 @@
 # Real-Time Object Detection using Tensorflow Object_detection API (windows)
 
 
-### This is a beginner friendly tutorial.
-<img src="data/Annotation%202020-01-23%20004710.png" width="48">
+<img src="data/Annotation%202020-01-23%20004710.png" width="38">
 
 _Author: Richard Joy_  
     richardjoy530@gmail.com
+### This is a beginner friendly tutorial.
 
 ---
 You can do object detection using tensorflow even with very little to no knoledge in python by following this tutorial. Actually tensorflow makes is much easier to do machine learning. All we really need to know is how to setup all the packages and various installations, and how to not mess up with different versions of the same package or library.
