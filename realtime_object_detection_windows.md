@@ -63,7 +63,7 @@ Now create an environment by typing this in our Anaconda prompt with our folder 
 
 
 ```python
-!conda create -n tensorflow2 pip python=3.6
+!conda create -n tensorflow2 pip python=3.6 -y
 ```
 
 This will create an environment named `tensorflow2` and with python3.6 as the interpreter.
