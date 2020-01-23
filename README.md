@@ -4,9 +4,11 @@
 
   
   Done.
+  
     1. Real-time object detection with tensorflow using pre-trained model.
   
   To-Do list.
+  
     1. Training custom object detection model.
     2. 
     
