@@ -449,5 +449,6 @@ I will be making similar tutorials on Training object detection on custom object
 
 
 I will be updating this file and you can get it from: https://github.com/richardjoy530/object_detection_tutorials/blob/master/realtime_object_detection_windows.md
+Download pdf version from: http://bit.ly/2vhBhRd
 
 Feel free to contact me if you ran into some troubles or need further info : richardjoy530@gmail.com
