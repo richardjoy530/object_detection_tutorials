@@ -1,15 +1,14 @@
 # Real-Time Object Detection using Tensorflow Object_detection API (windows)
 
 
-<img src="data/Annotation%202020-01-23%20004710.png" width="38">
+<img style = "margin-left: 0px;" src="data/Annotation%202020-01-23%20004710.png" width="38">
 
 _Author: Richard Joy_  
     richardjoy530@gmail.com
 ### This is a beginner friendly tutorial.
 
 ---
-You can do object detection using tensorflow even with very little to no knoledge in python by following this tutorial. Actually tensorflow makes is much easier to do machine learning. All we really need to know is how to setup all the packages and various installations, and how to not mess up with different versions of the same package or library.
-
+Dont get overwhelmed by the title. Seriously, anyone can do object detection using tensorflow even with very little or no knowledge in python by following this tutorial. Actually tensorflow makes is much easier to do machine learning. All we need to know is how to setup all the packages and various installations, and how to not mess up with different versions of the same package or library.
 Just keep on reading you will get the hang of it  :)
 
     NOTE: some files in this are a bit large you will be required to download around 800Mb throughout this 
@@ -311,6 +310,8 @@ tf.gfile = tf.io.gfile
 
 #### 3. Defining a function to Load a given model
 
+Lets have a quick overview of what exactly is a model. It is the brain of the object detection program. Basically it contains a neural network which helps in detecting the object in a given image (actually its called a tensor, we'll see it later). There are a wide verity of models out there they some are fast, and and some are lightweight(means it does not need much computing power, it can be used in smartphones). For this tutorial, we will be using models that already exists and that are tested by experts.
+
 `load_model` is a generic function which takes a parameter `model_name` which is the name of the pre trained models.
 `model_name` can be the name of any of the trained models in this link : https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
 
@@ -403,8 +404,10 @@ def run_inference_for_single_image(model, image):
 
 #### 6. Detecting frame by frame
 
-This set of code is just taking each frame of the video image by image and passing it to the `run_inference_for_single_image` function that we defined before. This process in looped in the `while` loop given below. Further explanation is given in the code...#....
+`cv2` is a module that is required to make interactions with our camera and display images onto our screen. `cap` is an object of cv2 from which we can get the images frame by frame. 
 
+
+This set of code is just taking each frame of the video image by image and passing it to the `run_inference_for_single_image` function that we defined above. This process is looped in the `while` loop and this is the reason for the continious vedio detection. Basically, our model detects objects in a single image, so we repeat this process for each frame and display it in the screen with the function `cv2.imshow`. Further explanation is given within the code.
 
 ```python
 import cv2
@@ -451,4 +454,6 @@ run_inference(detection_model, cap)
 
 I will be making similar tutorials on : Training object detection on custom objects. You can always find my tutorials at my github-repo: https://github.com/richardjoy530/object_detection_tutorials
 
-Feel free to contact me if you ran into some troubles : richardjoy530@gmail.com
+I will be updating this file and you can get it from: https://github.com/richardjoy530/object_detection_tutorials/blob/master/realtime_object_detection_windows.md
+
+Feel free to contact me if you ran into some troubles or need further info : richardjoy530@gmail.com
