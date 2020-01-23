@@ -398,7 +398,8 @@ Feel free to contact me if you ran into some troubles or need further info : ric
 
 ---
 
-code refrences taken from : 
+code refrences taken from :
+
     _https://pythonprogramming.net/introduction-use-tensorflow-object-detection-api-tutorial/
      https://gilberttanner.com/blog/installing-the-tensorflow-object-detection-api
      https://github.com/EdjeElectronic_
