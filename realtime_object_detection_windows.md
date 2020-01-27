@@ -37,7 +37,7 @@ Now that you have anaconda installed, let's make an environment for our program.
 
    _Throughout this tutorial, there are two types of codes. The ones that start with '!' and the ones that dont._
     
-   _'!' These are shell commands. These are to be run in our Anaconda Prompt with the "Tensorflow" folder as our command line location. You can change the location of command line by using "cd Documents\Tensorflow" in the Anaconda prompt as shown here:_
+   _'!' These are shell commands. These are to be run in our Anaconda Prompt with the "Tensorflow" folder as our command line location. You can change the location of command line by using "cd Documents\Tensorflow" in the Anaconda prompt as shown here: (always exclude the '!' while excectuing in shell)_
   
 
 
