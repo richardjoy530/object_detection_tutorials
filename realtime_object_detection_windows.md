@@ -20,7 +20,7 @@ _NOTE: some files in this are a bit large you will be required to download aroun
 
 There are mainly two different variations on TensorFlow: `tensorflow`-it runs on the systems CPU and `tensorflow_gpu`- it runs on GPU, this is fast but not all GPUs are supported by TensorFlow and its installation is not quite simple.
 
-There are various versions of TensorFlow, and this is the most annoying part that I've seen. Some python modules don't work with `tensorflow_v2.0` and others work only with `tensorflow2.0`. Therefore, I highly recommend using virtual environments for installing multiple versions of TensorFlow. Don't worry, I'll tell you how. For the virtual environment, I am using Anaconda(python3.7) 
+There are various versions of TensorFlow, and this is the most annoying part that I've seen. Some python modules don't work with `tensorflow_v2.0` and others work only with `tensorflow2.0`. Therefore, I highly recommend using virtual environments for installing multiple versions of TensorFlow. Don't worry, I'll tell you how. For the virtual environment, I am using Anaconda(python3.7). There are lots of different virtual environment software out there, but here we will be using Anaconda.
 
 Download and install Anaconda from this link: https://www.anaconda.com/distribution/#download-section keep the installation settings as it is.
 
