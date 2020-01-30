@@ -283,7 +283,7 @@ category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABE
 
 #### 4. Loading the model
 
-This is where we run the function `load_model` that we made above. Notice the `model_name` here we use the model: `ssd_inception_v2_coco_2017_11_17`. You can see these names in the link above. And this model is saved in `detection_model`
+This is where we run the function `load_model` that we made above. Notice the `model_name` here we use the model: `ssd_inception_v2_coco_2017_11_17` or use `ssd_mobilenet_v1_coco_2018_01_28` if the other one is slow. You can see these names in the link above. And this model is saved in `detection_model`
 
 ```python
 model_name = 'ssd_inception_v2_coco_2017_11_17'
