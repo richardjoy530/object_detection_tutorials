@@ -80,13 +80,19 @@ Now that we are in the virtual env' let's install TensorFlow.
 we can install python libraries using `pip` or `conda`. These are some python libraries that we need in our code, so let's install it using `pip` or if it doesn't work use `conda` as shown below.
 
 ```python
-!pip install pillow lxml jupyter matplotlib cython numpy
+!pip install pillow lxml jupyter matplotlib cython numpy 
 ```
 
 if any of the above libraries did not successfully  install, then use `conda` just replace `pip` as the code:
 
 ```python
 !conda install opencv -y
+```
+
+or
+
+```python
+!pip install opencv-python
 ```
 
 
