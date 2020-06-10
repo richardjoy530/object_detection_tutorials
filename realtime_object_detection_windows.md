@@ -174,6 +174,10 @@ _These commands must be run at `Tensorflow\models\research`. Just run these comm
 !python setup.py install
 ```
 
+#### Setting up COCO API on windows
+
+COCOAPI is actually made for linux, but we can get a windows ported version from https://github.com/philferriere/cocoapi. Head on to this link and follow the instruction to install COCOAPI on windows. You must have `git` installed on your PC for running git commands as shown in the website. On Windows, you must have the Visual C++ 2015 build tools on your path. If you don't, make sure to install them from https://go.microsoft.com/fwlink/?LinkId=691126.
+
 
 ### Congratulations!!! our Setup part is complete. Now, have a glass of water!!!
 
